@@ -14,6 +14,7 @@
 		D488909A201C339200EECAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4889098201C339200EECAB3 /* LaunchScreen.storyboard */; };
 		D48890A5201C339200EECAB3 /* PlanIt___MLHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48890A4201C339200EECAB3 /* PlanIt___MLHTests.swift */; };
 		D48890B0201C339300EECAB3 /* PlanIt___MLHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48890AF201C339300EECAB3 /* PlanIt___MLHUITests.swift */; };
+		D48890C1201C37CB00EECAB3 /* mlh-logo-color.png in Resources */ = {isa = PBXBuildFile; fileRef = D48890C0201C37CB00EECAB3 /* mlh-logo-color.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D48890AB201C339300EECAB3 /* PlanIt - MLHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlanIt - MLHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48890AF201C339300EECAB3 /* PlanIt___MLHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanIt___MLHUITests.swift"; sourceTree = "<group>"; };
 		D48890B1201C339300EECAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48890C0201C37CB00EECAB3 /* mlh-logo-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mlh-logo-color.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D488908E201C339200EECAB3 /* PlanIt - MLH */ = {
 			isa = PBXGroup;
 			children = (
+				D48890BD201C348D00EECAB3 /* Images */,
 				D488908F201C339200EECAB3 /* AppDelegate.swift */,
 				D4889091201C339200EECAB3 /* ViewController.swift */,
 				D4889093201C339200EECAB3 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				D48890B1201C339300EECAB3 /* Info.plist */,
 			);
 			path = "PlanIt - MLHUITests";
+			sourceTree = "<group>";
+		};
+		D48890BD201C348D00EECAB3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D48890C0201C37CB00EECAB3 /* mlh-logo-color.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48890C1201C37CB00EECAB3 /* mlh-logo-color.png in Resources */,
 				D488909A201C339200EECAB3 /* LaunchScreen.storyboard in Resources */,
 				D4889097201C339200EECAB3 /* Assets.xcassets in Resources */,
 				D4889095201C339200EECAB3 /* Main.storyboard in Resources */,
