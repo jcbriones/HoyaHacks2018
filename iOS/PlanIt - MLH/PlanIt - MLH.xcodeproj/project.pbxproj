@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4889090201C339200EECAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D488908F201C339200EECAB3 /* AppDelegate.swift */; };
+		D4889092201C339200EECAB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4889091201C339200EECAB3 /* ViewController.swift */; };
+		D4889095201C339200EECAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4889093201C339200EECAB3 /* Main.storyboard */; };
+		D4889097201C339200EECAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4889096201C339200EECAB3 /* Assets.xcassets */; };
+		D488909A201C339200EECAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4889098201C339200EECAB3 /* LaunchScreen.storyboard */; };
+		D48890A5201C339200EECAB3 /* PlanIt___MLHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48890A4201C339200EECAB3 /* PlanIt___MLHTests.swift */; };
+		D48890B0201C339300EECAB3 /* PlanIt___MLHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48890AF201C339300EECAB3 /* PlanIt___MLHUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48890A1201C339200EECAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4889084201C339200EECAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D488908B201C339200EECAB3;
+			remoteInfo = "PlanIt - MLH";
+		};
+		D48890AC201C339300EECAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4889084201C339200EECAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D488908B201C339200EECAB3;
+			remoteInfo = "PlanIt - MLH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D488908C201C339200EECAB3 /* PlanIt - MLH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlanIt - MLH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D488908F201C339200EECAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4889091201C339200EECAB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4889094201C339200EECAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4889096201C339200EECAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4889099201C339200EECAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D488909B201C339200EECAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48890A0201C339200EECAB3 /* PlanIt - MLHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlanIt - MLHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48890A4201C339200EECAB3 /* PlanIt___MLHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanIt___MLHTests.swift"; sourceTree = "<group>"; };
+		D48890A6201C339300EECAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48890AB201C339300EECAB3 /* PlanIt - MLHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlanIt - MLHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48890AF201C339300EECAB3 /* PlanIt___MLHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanIt___MLHUITests.swift"; sourceTree = "<group>"; };
+		D48890B1201C339300EECAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4889089201C339200EECAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488909D201C339200EECAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48890A8201C339300EECAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4889083201C339200EECAB3 = {
+			isa = PBXGroup;
+			children = (
+				D488908E201C339200EECAB3 /* PlanIt - MLH */,
+				D48890A3201C339200EECAB3 /* PlanIt - MLHTests */,
+				D48890AE201C339300EECAB3 /* PlanIt - MLHUITests */,
+				D488908D201C339200EECAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D488908D201C339200EECAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D488908C201C339200EECAB3 /* PlanIt - MLH.app */,
+				D48890A0201C339200EECAB3 /* PlanIt - MLHTests.xctest */,
+				D48890AB201C339300EECAB3 /* PlanIt - MLHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D488908E201C339200EECAB3 /* PlanIt - MLH */ = {
+			isa = PBXGroup;
+			children = (
+				D488908F201C339200EECAB3 /* AppDelegate.swift */,
+				D4889091201C339200EECAB3 /* ViewController.swift */,
+				D4889093201C339200EECAB3 /* Main.storyboard */,
+				D4889096201C339200EECAB3 /* Assets.xcassets */,
+				D4889098201C339200EECAB3 /* LaunchScreen.storyboard */,
+				D488909B201C339200EECAB3 /* Info.plist */,
+			);
+			path = "PlanIt - MLH";
+			sourceTree = "<group>";
+		};
+		D48890A3201C339200EECAB3 /* PlanIt - MLHTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48890A4201C339200EECAB3 /* PlanIt___MLHTests.swift */,
+				D48890A6201C339300EECAB3 /* Info.plist */,
+			);
+			path = "PlanIt - MLHTests";
+			sourceTree = "<group>";
+		};
+		D48890AE201C339300EECAB3 /* PlanIt - MLHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48890AF201C339300EECAB3 /* PlanIt___MLHUITests.swift */,
+				D48890B1201C339300EECAB3 /* Info.plist */,
+			);
+			path = "PlanIt - MLHUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D488908B201C339200EECAB3 /* PlanIt - MLH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48890B4201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLH" */;
+			buildPhases = (
+				D4889088201C339200EECAB3 /* Sources */,
+				D4889089201C339200EECAB3 /* Frameworks */,
+				D488908A201C339200EECAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlanIt - MLH";
+			productName = "PlanIt - MLH";
+			productReference = D488908C201C339200EECAB3 /* PlanIt - MLH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D488909F201C339200EECAB3 /* PlanIt - MLHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48890B7201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLHTests" */;
+			buildPhases = (
+				D488909C201C339200EECAB3 /* Sources */,
+				D488909D201C339200EECAB3 /* Frameworks */,
+				D488909E201C339200EECAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48890A2201C339200EECAB3 /* PBXTargetDependency */,
+			);
+			name = "PlanIt - MLHTests";
+			productName = "PlanIt - MLHTests";
+			productReference = D48890A0201C339200EECAB3 /* PlanIt - MLHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48890AA201C339300EECAB3 /* PlanIt - MLHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48890BA201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLHUITests" */;
+			buildPhases = (
+				D48890A7201C339300EECAB3 /* Sources */,
+				D48890A8201C339300EECAB3 /* Frameworks */,
+				D48890A9201C339300EECAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48890AD201C339300EECAB3 /* PBXTargetDependency */,
+			);
+			name = "PlanIt - MLHUITests";
+			productName = "PlanIt - MLHUITests";
+			productReference = D48890AB201C339300EECAB3 /* PlanIt - MLHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4889084201C339200EECAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "John Christopher Briones";
+				TargetAttributes = {
+					D488908B201C339200EECAB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D488909F201C339200EECAB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D488908B201C339200EECAB3;
+					};
+					D48890AA201C339300EECAB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D488908B201C339200EECAB3;
+					};
+				};
+			};
+			buildConfigurationList = D4889087201C339200EECAB3 /* Build configuration list for PBXProject "PlanIt - MLH" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4889083201C339200EECAB3;
+			productRefGroup = D488908D201C339200EECAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D488908B201C339200EECAB3 /* PlanIt - MLH */,
+				D488909F201C339200EECAB3 /* PlanIt - MLHTests */,
+				D48890AA201C339300EECAB3 /* PlanIt - MLHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D488908A201C339200EECAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488909A201C339200EECAB3 /* LaunchScreen.storyboard in Resources */,
+				D4889097201C339200EECAB3 /* Assets.xcassets in Resources */,
+				D4889095201C339200EECAB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488909E201C339200EECAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48890A9201C339300EECAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4889088201C339200EECAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4889092201C339200EECAB3 /* ViewController.swift in Sources */,
+				D4889090201C339200EECAB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D488909C201C339200EECAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48890A5201C339200EECAB3 /* PlanIt___MLHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48890A7201C339300EECAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48890B0201C339300EECAB3 /* PlanIt___MLHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48890A2201C339200EECAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D488908B201C339200EECAB3 /* PlanIt - MLH */;
+			targetProxy = D48890A1201C339200EECAB3 /* PBXContainerItemProxy */;
+		};
+		D48890AD201C339300EECAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D488908B201C339200EECAB3 /* PlanIt - MLH */;
+			targetProxy = D48890AC201C339300EECAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4889093201C339200EECAB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4889094201C339200EECAB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4889098201C339200EECAB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4889099201C339200EECAB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48890B2201C339300EECAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48890B3201C339300EECAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48890B5201C339300EECAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48890B6201C339300EECAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D48890B8201C339300EECAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanIt - MLH.app/PlanIt - MLH";
+			};
+			name = Debug;
+		};
+		D48890B9201C339300EECAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanIt - MLH.app/PlanIt - MLH";
+			};
+			name = Release;
+		};
+		D48890BB201C339300EECAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PlanIt - MLH";
+			};
+			name = Debug;
+		};
+		D48890BC201C339300EECAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ22CL29F9;
+				INFOPLIST_FILE = "PlanIt - MLHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mlh.go52.PlanIt---MLHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PlanIt - MLH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4889087201C339200EECAB3 /* Build configuration list for PBXProject "PlanIt - MLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48890B2201C339300EECAB3 /* Debug */,
+				D48890B3201C339300EECAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48890B4201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48890B5201C339300EECAB3 /* Debug */,
+				D48890B6201C339300EECAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48890B7201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48890B8201C339300EECAB3 /* Debug */,
+				D48890B9201C339300EECAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48890BA201C339300EECAB3 /* Build configuration list for PBXNativeTarget "PlanIt - MLHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48890BB201C339300EECAB3 /* Debug */,
+				D48890BC201C339300EECAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4889084201C339200EECAB3 /* Project object */;
+}
